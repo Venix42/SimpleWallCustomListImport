@@ -3,6 +3,7 @@
 ##
 
 ## Lists
+## Disable the 3 first list as SimpleWall cannot keep with the amount of ips there
         #"https://raw.githubusercontent.com/stamparm/ipsum/master/levels/1.txt",
         #"https://raw.githubusercontent.com/stamparm/ipsum/master/levels/2.txt",
         #"https://raw.githubusercontent.com/stamparm/ipsum/master/levels/3.txt",
