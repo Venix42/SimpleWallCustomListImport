@@ -4,10 +4,12 @@ Powershell tool to import some blocked ips into the user filter list using the p
 Known Limitations
 - Only works on Win64. If you want to use it on Win32, you need to change the version of cidr-merger which is retrieved.
 - Only work on installed version, not standalone. Profile.xml not stored at the same spot
+
+
 External Sources:
 
-Block list : https://github.com/stamparm/ipsum
-CIDR-Merger: https://github.com/zhanhb/cidr-merger
+- Block list : https://github.com/stamparm/ipsum
+- CIDR-Merger: https://github.com/zhanhb/cidr-merger
 
 !!!!WARNING!!!!!! It saves the previous profile.xml but it will be overwritten the next time it is used. It will remove your user filter list!
 
