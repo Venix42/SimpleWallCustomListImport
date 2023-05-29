@@ -72,8 +72,7 @@ $lists | ForEach-Object {
             $newItem = [xml]@"
             <item name="CustomList$($i)-$(Get-Random)" rule="$($line)" dir="2" is_block="true" is_enabled="true"/>
 "@
-            Write-Debug $newItem.item.Name
-            Write-Debug $node.AppendChild($xml.ImportNode($newItem.item,$true))
+            $node.AppendChild($xml.ImportNode($newItem.item,$true)) | Out-Null
         }
     }
     catch [System.Net.WebException] {
